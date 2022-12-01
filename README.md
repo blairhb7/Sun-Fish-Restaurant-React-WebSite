@@ -1,27 +1,27 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![landing page screenshot](https://user-images.githubusercontent.com/88805312/205113651-e406fe33-2c61-4925-b7ce-674477facea4.png)
 
-## Deploy your own
+![sunfishmenu](https://user-images.githubusercontent.com/88805312/205113878-d3e47147-8ede-47e2-9aba-85b9dcd24c3f.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<h1>ABOUT</h1>
+<h3> “Sun Fish!”</h3>
+<h4. The Goal</h4>
+<P> Hired by Sun Fish to create a beautiful website for Sun Fish Restaurant. Built with Next JS, Sun Fish Features Multiple pages including, a landing page, menu, classes, and slide in check out cart. Sun Fish Menu page features, a responsive layout, along with add to cart function that updates instantly as you add more items to your cart. Click on the the cart icon and a slide in check out cart will appear, along with each item you added and the ammount. A remove button was added to easily remove any item out of your cart.  </p>
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+<h1> How it was built </h1>
+<div style="liststyle: none;">
+  <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>
+  <a href="https://www.tailwindcss.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="50" /></a>
+  <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a> 
+  <a href="https://nextjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="50" /></a>  
+</div>
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+<h1> View Live Demo </h1>
+<a style="text-transform: uppercase;" href="https://sun-fish.vercel.app/">Blair Chappell Portfolio </a>
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![sunfishclasses](https://user-images.githubusercontent.com/88805312/205114054-b62b59e8-d97f-468f-8140-9093b5bb89b5.png)
