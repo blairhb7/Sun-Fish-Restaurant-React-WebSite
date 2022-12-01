@@ -4,17 +4,10 @@ import Navbar from '../components/Navbar'
 import { IoFishSharp } from "react-icons/io5";
 import Link from 'next/link'
 import Menunav from '../components/Menunav';
-import {StoreItem} from '../components/StoreItem'
+import StoreItem from '../components/StoreItem'
 import storeItems from '../data/items.json'
 
-type StoreItemProps = {
-    id: number,
-    name: string,
-    price: number,
-    imgUrl: string,
-    info: string, 
-    title: string,
-}
+
 
 const Menu = () => {
   return (

@@ -8,10 +8,10 @@ type StoreItemProps = {
     price: number,
     imgUrl: string,
     info: string, 
-    title: string,
+    Name: string,
 }
 
-export function StoreItem({ id, name, price, imgUrl, info, title }: StoreItemProps){
+export function StoreItem({ id, name, Name, price, imgUrl, info,  }: StoreItemProps){
     const {
         getItemQuantity, 
         increaseCartQuantity, 
@@ -23,7 +23,7 @@ export function StoreItem({ id, name, price, imgUrl, info, title }: StoreItemPro
 
     return (
         <div className="flex flex-col space-y-1  h-full">
-            <a id={title} href="/Ramen"><h1 className="flex text-white text-5xl px-6 py-5 uppercase">{title}</h1></a>
+            <a  href="/Ramen"><h1 className="flex text-white text-5xl px-6 py-5 uppercase">{Name}</h1></a>
         <div className='flex gap-3 items-center object-cover py-0 md:pl-8'>
             <img className=' w-20 h-20  px-4 md:px-0 md:w-24 md:h-20 object-cover  bg-cover' src={imgUrl}></img>
             <div className="flex flex-col">
@@ -51,3 +51,4 @@ export function StoreItem({ id, name, price, imgUrl, info, title }: StoreItemPro
     )
 }
 
+export default StoreItem
