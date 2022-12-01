@@ -7,7 +7,7 @@ const Logo = () => {
   return (
     <div>
         <Link href='/'>
-            <div className='py-6 px-3 w-20 fixed z-50'>
+            <div className='py-6 px-8 flex flex-col justify-center w-32 fixed z-50'>
                 <IoFishSharp  />
                 <h2 className="uppercase text-sm text-white">sun fish</h2>
             </div>
