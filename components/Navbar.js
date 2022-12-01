@@ -40,7 +40,7 @@ const { closeCart, cartItems } = useShoppingCart()
                 <li className=" uppercase text-white bg-black hover:bg-red-500 transition duration-1000 rounded-full xl:ml-11 xl:p-3 p-2 xl:text-md text-[.6em] xl:w-40 justify-center flex "><Link  href="">Book A Table</Link></li>
             </ul>
        </div>
-       <div className='flex '>
+       <div className='flex z-40  '>
        <StyledOffCanvas
        menuBackground = 'rgb(220 38 38)'
        width = '500px'

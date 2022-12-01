@@ -15,7 +15,7 @@ const Menu = () => {
         <Logo></Logo>
         <Navbar></Navbar>
         <div className="grid grid-cols-1 xl:grid-cols-2 scrollbar-hide">
-            <div className="MenuPic z-10 flex flex-col pt-60 xl:pt-24 items-center h-screen">
+            <div className="MenuPic  flex flex-col pt-60 xl:pt-24 items-center h-screen">
                 <h3 className="uppercase text-black text-3xl font-medium">check out</h3>
                 <h2 className="text-black uppercase text-6xl font-bold">our menu</h2>
             </div>
