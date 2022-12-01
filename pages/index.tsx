@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className="">
       <Head>
         <title>SUN FISH</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/fish.png" />
       </Head>
 
       <main>
