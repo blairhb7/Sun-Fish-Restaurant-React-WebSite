@@ -1,3 +1,104 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    height: 50px;
+    width: 100%;
+    color: rgb(237, 43, 43);
+}
+
+
+
+/* ---------------------------- Background Images ---------------------------- */
+
+.LandingPage {
+    background-image: url(/dinner.png);
+    background-size: cover;
+}
+
+.MenuPic {
+    background-image: url(/closesushi.png);
+    background-size: cover;
+}
+
+/* ---------------------------- Classes Images ---------------------------- */
+
+.ClassOne {
+    background-image: url(/pexels-katerina-11736161.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+
+.ClassTwo {
+    background-image: url(/pexels-lara-wehbe-9920864.jpg);
+    background-size: cover;
+}
+
+.ClassThree {
+    background-image: url(/pexels-valeria-boltneva-13322687.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* ---------------------------- Grid Layout ---------------------------- */
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-1 grid-1 grid-2"
+      "grid-5 grid-5 grid-2"
+      "grid-4 grid-3 grid-3";
+    max-width: none;
+    min-width: none;
+  }
+  
+  .grid-2 { grid-area: grid-2; background-image: url(/sign.png); background-size: cover;}
+  
+  .grid-1 { grid-area: grid-1; background-image: url(/table.png); background-size: cover}
+  
+  .grid-3 { grid-area: grid-3; background-image: url(/openspace.png); background-size: cover}
+  
+  .grid-4 { grid-area: grid-4; background-image: url(/chairs.png); background-size: cover}
+  
+  .grid-5 { grid-area: grid-5; background-image: url(/dinnerroom.png); background-size: cover}
+  
+
+
+
+  
+/* ---------------------------- Tool Tips ---------------------------- */
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 290px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 2px 0;
+    border-radius: 6px;
+    top: -180px;
+   
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 10;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+

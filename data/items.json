@@ -1,0 +1,96 @@
+[
+   
+    {
+        "title": "Ramen",
+        "id": 1,
+        "name": "Tonkotsu Ramen",
+        "price": 10.85,
+        "imgUrl": "/ramen.jpg",
+        "info": "thin noodles topped with pork belly chashu, sesame kikurage mushrooms, menma, red pickled ginger and scallions."
+    },
+
+    {
+        "id": 2,
+        "name": "Miso Ramen",
+        "price": 10.85,
+        "imgUrl": "/pexels-katerina-11736161.jpg",
+        "info": "thin noodles topped with secret “Umami Dama” miso paste, pork belly chashu, cabbage, sesame kikurage mushrooms."
+    },
+    
+    {
+        "title": "Sashimi",
+        "id": 3,
+        "name": "Tuna",
+        "price": 20.85,
+        "imgUrl": "/tuna.jpg",
+        "info": "8 pieces of Sushimi grade Blue fin Tuna."
+    },
+    
+    {
+        "id": 4,
+        "name": "Salmon",
+        "price": 20.85,
+        "imgUrl": "/pexels-lara-wehbe-9920864.jpg",
+        "info": "8 pieces of Sushimi grade King Salmon."
+    },
+    
+    {
+        "title": "Sushi Rolls",
+        "id": 5,
+        "name": "Salmon Roll",
+        "price": 20.85,
+        "imgUrl": "/sushiplate2.png",
+        "info": "8 pieces salmon roll sushi with avocado and spicy Japanese mayo."
+    },
+    
+    {
+        "id": 6,
+        "name": "Ube Roll",
+        "price": 22.85,
+        "imgUrl": "/pexels-valeria-boltneva-13322689.jpg",
+        "info": "8 pieces Spicy tuna, cucumber topped with tuna, masago and spicy mayo, ube."
+    },
+    
+    {
+        "id": 7,
+        "name": "Pink Lady Roll",
+        "price": 18.85,
+        "imgUrl": "/pexels-valeria-boltneva-13322687.jpg",
+        "info": "8 pieces Salmon, basil, gobo, nuts, lemon and avocado topped with tuna."
+    },
+    
+    {
+        "id": 8,
+        "name": "Crunch Rolll",
+        "price": 17.85,
+        "imgUrl": "/pexels-andre-saddi-13265657.jpg",
+        "info": "8 pieces Deep-fried crab salad and avocado roll with sweet sauce."
+    },
+    
+    {
+        "title": "Drinks",
+        "id": 9,
+        "name": "Panthouse Tonic",
+        "price": 10.85,
+        "imgUrl": "/pexels-isabella-mendes-338713.jpg",
+        "info": "tequila, Ancho Reyes Verde (a spicy, crisp poblano liqueur), and splashes of pineapple and lime juices."
+    },
+    {
+        "id": 10,
+        "name": "Apple Breeze",
+        "price": 10.85,
+        "imgUrl": "/pexels-isabella-mendes-1304541.jpg",
+        "info": "This delicious gin, Campari and vermouth cocktail develops a smooth, deep flavor after being aged in an oak barrel for a month."
+    },
+    
+    {
+        "id": 11,
+        "name": "New York Blitz",
+        "price": 10.85,
+        "imgUrl": "/pexels-isabella-mendes-1304540.jpg",
+        "info": "Fruity, rich, and mildly sweet dark-berry liqueur plays well with both effervescent sparkling wine in this Winter Berries cocktail, bourbon adds a touch of heat."
+    }
+    
+    
+    
+]
