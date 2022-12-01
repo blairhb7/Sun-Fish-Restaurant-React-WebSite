@@ -5,7 +5,7 @@ import { useShoppingCart } from '../Context/ShoppingCartContext'
 import { CartItem } from './CartItem'
 import { ProSidebarProvider } from 'react-pro-sidebar';
 import { Sidebar,  MenuItem, SubMenu, useProSidebar } from 'react-pro-sidebar';
-import { StyledOffCanvas, Menu, Overlay } from 'styled-off-canvas'
+import { StyledOffCanvas, Menu,  Overlay} from 'styled-off-canvas'
 import storeItems from "../data/items.json"
 
 
