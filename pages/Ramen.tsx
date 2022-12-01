@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import Logo from '../components/Logo'
@@ -6,6 +7,11 @@ import Navbar from '../components/Navbar'
 const Ramen = () => {
   return (
     <section>
+        <Head>
+        <title>SUN FISH</title>
+        <link rel="icon" href="/fish.png" />
+      </Head>
+
         <Logo></Logo>
         <Navbar></Navbar>
         <div className="grid  grid-cols-1 xl:grid-cols-3 ">

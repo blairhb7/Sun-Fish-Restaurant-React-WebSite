@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import Logo from '../components/Logo'
 import Navbar from '../components/Navbar'
@@ -5,6 +6,11 @@ import Navbar from '../components/Navbar'
 const Restuarant = () => {
   return (
     <section>
+      <Head>
+        <title>SUN FISH</title>
+        <link rel="icon" href="/fish.png" />
+      </Head>
+
       <Navbar></Navbar>
       <Logo></Logo>
         <div className="container relative z-10 sm:grid-cols-1 lg:grid-cols-3 sm:grid h-[1500px] xl:h-[2000px] gap-2">

@@ -6,12 +6,18 @@ import Link from 'next/link'
 import Menunav from '../components/Menunav';
 import StoreItem from '../components/StoreItem'
 import storeItems from '../data/items.json'
+import Head from 'next/head';
 
 
 
 const Menu = () => {
   return (
     <section>
+        <Head>
+        <title>SUN FISH</title>
+        <link rel="icon" href="/fish.png" />
+      </Head>
+
         <Logo></Logo>
         <Navbar></Navbar>
         <div className="grid grid-cols-1 xl:grid-cols-2 scrollbar-hide">
