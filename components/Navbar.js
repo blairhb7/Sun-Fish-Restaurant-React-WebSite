@@ -22,7 +22,7 @@ const { closeCart, cartItems } = useShoppingCart()
                 <li className="tooltip ">
                     <Link href=""><ClockIcon className="h-6 w-6  text-red-500"/>
                         <span className="tooltiptext ">
-                            <div className="flex flex-col p-4 font-light ">
+                            <div className="flex flex-col p-2 font-light ">
                                 <h2 className="text-3xl pb-3 uppercase">hours</h2>
                                 <p  className='text-base'>11:00am - 5:00pm Tuesday - Thursday</p>
                                 <p  className=' text-base'>11:00am - 8:30pm Friday - Sunday</p>
@@ -37,7 +37,7 @@ const { closeCart, cartItems } = useShoppingCart()
                 <li className=""><Link href="/Restaurant">Restaurant</Link></li>
                 <li className=""><Link href="/Menu">Menu</Link></li>
                 <li className=""><Link href="/Classes">Classes</Link></li>
-                <li className=" uppercase text-white bg-black hover:bg-red-500 transition duration-1000 rounded-full xl:ml-11 xl:p-3 p-2 xl:text-lg text-[.6em] "><Link  href="">Book A Table</Link></li>
+                <li className=" uppercase text-white bg-black hover:bg-red-500 transition duration-1000 rounded-full xl:ml-11 xl:p-3 p-2 xl:text-md text-[.6em] xl:w-40 justify-center flex "><Link  href="">Book A Table</Link></li>
             </ul>
        </div>
        <div className='flex '>
