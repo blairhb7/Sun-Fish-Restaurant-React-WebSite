@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "bootstrap": "^5.2.3",
     "next": "latest",
     "react": "18.2.0",
